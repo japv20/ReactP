@@ -2,7 +2,8 @@
 import React from 'react'
 
 function Main() {
-    return <main> 
+    return <main>
+        <section className='overview'> 
         <i> <b> Hotel Overview </b> </i>
         {/* http://www.whiteskyhospitality.com/blog/wp-content/uploads/2014/11/Reach_Hotel-description-template_V2_FOR-DOWNLOAD.pdf */}
         <p> Set on the peaceful backwaters of Wymouth, this hotel welcomes guests with a beautiful outdoor pool, which overlooks the lake.
@@ -13,13 +14,13 @@ function Main() {
 
             Guests can select from various spa treatments and utilize the business 
             centre. The Resort also offers laundry services and luggage storage space. 
-            Excursions and nature treks can be arranged at the tour desk.
+            Excursions and nature treks can be arranged at the tour desk. <br />
 
+            Guests can select from various spa treatments and utilize the business centre. The Resort also offers laundry services and luggage storage space. Excursions and nature treks can be arranged at the tour desk.
         </p>
-        <p> 
-            Guests can select from various spa treatments and utilize the business centre. The Resort also offers laundry services and luggage storage space. Excursions and nature treks can be arranged at the tour desk. 
-        </p>
+        </section>
 
+        <section className='rooms'>
         <i> <b> Rooms </b> </i> <br />
         <i> Deluxe Room </i>
         <p>
@@ -30,7 +31,7 @@ function Main() {
             The room is equipped with a fireplace, a king size bed, a telephone and an attached bathroom. 
             The room overlooks the lake.
         </p>
-
+        </section>
         </main>
 }
 

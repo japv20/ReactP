@@ -5,8 +5,7 @@ function Nav() {
     return <nav> 
         <a href="#"> Home </a>
         <a href="#"> About Us </a>
-        <a href="#"> Book Now </a>
-        <a href="#"> Admin </a>
+        <a href="#" className='booking'> Book Now </a>
     </nav>
 }
 

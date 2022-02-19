@@ -7,12 +7,16 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Main from './components/Main'
 import Nav from './components/Navmen'
+import Slider from './components/slider/Slider'
+import Form from './components/BookForm'
 
 function App() {
   return (
     <div className="App">
       <Header /> <br/>
       <Nav /> <br/>
+      <Form /> <br/>
+      <Slider /> <br/>
       <Main /> <br/>
       {/* <Greet name="Jack" heroName="Batman">
         <p> This is children props</p>
