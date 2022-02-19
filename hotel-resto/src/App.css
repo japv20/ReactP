@@ -1,5 +1,21 @@
 body {
-  background-color: #61dafb;
+  background-color: white;
+}
+
+nav, footer {
+  background-color: #f5b278;
+}
+
+.slider-container, .rooms {
+  background-color: rgb(245, 239, 239);
+}
+
+.overview, form {
+  background-color: #eed7a0;
+}
+
+form {
+  border: 1px solid lavender;
 }
 
 #logo {
@@ -24,6 +40,12 @@ nav a {
 }
 a:hover {
   text-decoration: underline;
+}
+
+.slides {
+  border: 2px solid black;
+  width: 500px;
+  height: 450px;
 }
 
 .App {
