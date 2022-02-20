@@ -2,13 +2,21 @@ import logo from './logo.svg';
 import './App.css';
 import Greet from './components/Greet'
 import Welcome from './components/Welcome'
-
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Main from './components/Main'
 import Nav from './components/Navmen'
 import Slider from './components/slider/Slider'
 import Form from './components/BookForm'
+
+//MONGODB
+const mongoose = require('mongoose');
+// import mongoose from 'mongoose'
+// mongodb+srv://latinas:latinas@cluster0.djw59.mongodb.net/Data
+mongoose.connect('mongodb+srv://latinas:latinas@cluster0.djw59.mongodb.net/test', {
+  useUnifiedTopology: true,
+  useNewUrlParwer: true,
+}) .then(console.log('Connected to mongoDB'))
 
 function App() {
   return (
